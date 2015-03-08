@@ -52,7 +52,7 @@ function getWinner(playerMove,computerMove) {
         winner = "computer";
     } else if (playerMove =="scissors" && computerMove == "rock") {
         winner = "computer";
-    } else {
+    } else if (playerMove =="scissors" && computerMove =="paper") {
         winner = "player";
     }
     return winner;
